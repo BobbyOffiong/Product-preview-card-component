@@ -1,0 +1,112 @@
+/*PRODUCT IMAGE*/
+.product_image{
+    background-image: url("images/image-product-desktop.jpg");
+ border-top-left-radius: 4%;
+border-bottom-left-radius: 4%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ 
+  width: 50%;
+}
+
+/*PRODUCT PREIVIEW CONTAINER*/
+.product-preview-container{
+    display: inline-flex;
+  height: 450px;
+  width: 680px;
+  margin-top: 10%;
+  margin-left: 25%;
+  margin-bottom: 100px;
+}
+
+.preview-div{
+    
+    width: 50%;
+    background-color: white;
+    border-top-right-radius: 4%;
+border-bottom-right-radius: 4%;
+}
+
+.perfume{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  letter-spacing: 3px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.pef_para{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.perf_heading{
+  font-family: 'Fraunces', serif;
+  color: hsl(212, 21%, 14%);
+}
+
+/*BUTTON*/
+.button{
+  
+color: hsl(212, 21%, 14%);
+}
+
+/*PRICE DIV*/
+.price-div{
+
+}
+
+.current_price{
+  color: hsl(158, 36%, 37%);
+  font-family: 'Fraunces', serif;
+}
+
+.former_price{
+  color: hsl(228, 12%, 48%);
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: line-through;
+  padding-top: 12px;
+}
+
+.add_to_cart_button{
+background-color:  hsl(158, 36%, 37%);
+width: 100%;
+padding-left: 30%;
+}
+
+.add_to_cart_button:hover{
+  background-color: hsl(133, 36%, 23%);
+}
+
+/*RWD View*/
+@media only screen and (max-width: 500px) {
+  .product-preview-container {
+    display: grid;
+    height: auto;
+    width: 80%;
+    margin-left: 10%;
+    margin: auto;
+  }
+
+  .product_image{
+    background-image: url("images/image-product-mobile.jpg");
+ border-top-left-radius: 4%;
+border-top-right-radius: 4%;
+border-bottom-left-radius: 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+ height: 250px;
+ width: 100%;
+ margin-top: 10%;
+}
+
+  .preview-div{
+   width: fit-content;
+   border-top-left-radius: 0%;
+   border-top-right-radius: 0%;
+   border-bottom-left-radius: 4%;
+  }
+}

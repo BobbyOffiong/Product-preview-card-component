@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../../bootstrap-5/css/bootstrap.min.css">
+  <script src="../../bootstrap-5/js/bootstrap.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../fontawesome/css/all.min.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500$display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+  </style>
+</head>
+<body style="background-color: hsl(30, 38%, 92%);">
+
+  <div class="product-preview-container mb-5">
+      <div class="product_image"> 
+      </div>
+      <div class="preview-div px-5 py-4">
+
+        <h5 class="perfume">PERFUME</h5>
+
+        <h1 class="perf_heading">Gabrielle Essence Eau De Parfum</h1>
+
+        <p class="pef_para">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+
+           <!--PRICE DIV-->
+    <div class="price-div d-inline-flex">
+      <span class="current_price"><h1>$149.99</h1></span>
+      <span class="former_price ms-4">$169.99</span>
+    </div>
+
+    
+    <button class="add_to_cart_button text-white d-inline-flex rounded-3
+    border-0 align-top py-3">
+      <i class="fa fa-shopping-cart pt-1" aria-hidden="true"></i>
+      <span class="ms-2">Add to Cart</span>
+    </button>
+      </div>
+    </div>
+
+
+   
+
+<!--
+  Preview
+
+  Gabrielle Essence Eau De Parfum
+
+  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+  Perfumer-Creator for the House of CHANEL.
+
+  $149.99
+  $169.99
+
+  Add to Cart
+  -->
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Ekpe Offiong Jr</a>.
+  </div>
+</body>
+</html>
